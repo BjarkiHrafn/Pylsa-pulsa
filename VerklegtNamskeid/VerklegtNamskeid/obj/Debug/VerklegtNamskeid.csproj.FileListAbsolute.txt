@@ -111,3 +111,4 @@ C:\Users\Bjarki\Documents\gitsgud\VerklegtNamskeid\VerklegtNamskeid\bin\Antlr3.R
 C:\Users\Bjarki\Documents\gitsgud\VerklegtNamskeid\VerklegtNamskeid\bin\Newtonsoft.Json.xml
 C:\Users\Bjarki\Documents\gitsgud\VerklegtNamskeid\VerklegtNamskeid\obj\Debug\VerklegtNamskeid.dll
 C:\Users\Bjarki\Documents\gitsgud\VerklegtNamskeid\VerklegtNamskeid\obj\Debug\VerklegtNamskeid.pdb
+C:\Users\Bjarki\Documents\gitsgud\VerklegtNamskeid\VerklegtNamskeid\obj\Debug\VerklegtNamskeid.csprojResolveAssemblyReference.cache
