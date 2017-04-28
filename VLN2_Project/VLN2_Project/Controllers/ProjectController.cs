@@ -9,7 +9,7 @@ namespace VLN2_Project.Controllers
 {
     public class ProjectController : Controller
     {
-        private ProjectService _service;
+        private ProjectService _service = new ProjectService();
 
         // GET: Project
         public ActionResult Index()
