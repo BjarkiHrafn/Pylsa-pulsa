@@ -49,15 +49,15 @@ namespace VLN2_Project
                 AllowOnlyAlphanumericUserNames = false,
                 RequireUniqueEmail = true
             };
-
+           
             // Configure validation logic for passwords
             manager.PasswordValidator = new PasswordValidator
             {
                 RequiredLength = 6,
-                RequireNonLetterOrDigit = true,
-                RequireDigit = true,
+                RequireNonLetterOrDigit = false, // thetta for i taugarnar a mer svo eg breytti thvi
+                RequireDigit = false,
                 RequireLowercase = true,
-                RequireUppercase = true,
+                RequireUppercase = false,
             };
 
             // Configure user lockout defaults
