@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using VLN2_Project.Models.Entities;
 
 namespace VLN2_Project.Models
 {
@@ -20,7 +21,9 @@ namespace VLN2_Project.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-
+        public DbSet<Project> Projects { get; set; }
+        public DbSet<ProjectFile> ProjectFiles { get; set; }
+        public DbSet<User> Users { get; set; }
 
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
