@@ -10,7 +10,7 @@ namespace VLN2_Project.Models.Entities
     {
         public string _title { get; set; }
         [Key]
-        int _ownerID { get; set; }
+        public int _ownerID { get; set; }
         List<int> _participantIDs { get; set; }
         List<ProjectFile> _files { get; set; }
     }
