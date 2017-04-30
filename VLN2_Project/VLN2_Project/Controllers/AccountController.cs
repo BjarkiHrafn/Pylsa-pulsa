@@ -155,8 +155,8 @@ namespace VLN2_Project.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
-                    
+                    await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
+
                     // For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771
                     // Send an email with this link
                     // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
@@ -165,7 +165,10 @@ namespace VLN2_Project.Controllers
 
                     return RedirectToAction("Index", "Home");
                 }
-                AddErrors(result);
+                else
+                {
+                    AddErrors(result);
+                }
             }
 
             // If we got this far, something failed, redisplay form

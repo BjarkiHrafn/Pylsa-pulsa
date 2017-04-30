@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using VLN2_Project.Models.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace VLN2_Project.Models
 {
@@ -21,12 +22,13 @@ namespace VLN2_Project.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        [Key]
         public DbSet<Project> Projects { get; set; }
         public DbSet<ProjectFile> ProjectFiles { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> users { get; set; }//thetta het Users en conflictadi svo.. yolo, kvedja.Bjarki
 
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("CodebucketData", throwIfV1Schema: false)
         {
         }
 

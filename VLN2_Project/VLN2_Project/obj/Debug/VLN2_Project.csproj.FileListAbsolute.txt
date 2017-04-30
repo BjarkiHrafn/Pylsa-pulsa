@@ -241,6 +241,5 @@ C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\bin\Microsoft.Owin.S
 C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\obj\Debug\VLN2_Project.csprojResolveAssemblyReference.cache
 C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\obj\Debug\VLN2_Project.dll
 C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\obj\Debug\VLN2_Project.pdb
