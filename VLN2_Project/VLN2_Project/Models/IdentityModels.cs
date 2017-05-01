@@ -21,9 +21,9 @@ namespace VLN2_Project.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet<Project> Projects { get; set; }
-        public DbSet<ProjectFile> ProjectFiles { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<Project>       Projects        { get; set; }
+        public DbSet<ProjectFile>   ProjectFiles    { get; set; }
+        public DbSet<User>          Users           { get; set; }
 
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
