@@ -10,6 +10,7 @@ namespace VLN2_Project.Models.Entities
     {
         [Key]
         public int ID { get; set; }
+        public string _email { get; set; }
         public string _userName { get; set; }
         public string _passWord { get; set; }
     }

@@ -243,4 +243,5 @@ C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\bin\Microsoft.Owin.S
 C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\obj\Debug\VLN2_Project.dll
 C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\obj\Debug\VLN2_Project.pdb
-C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\obj\Debug\VLN2_Project.csprojResolveAssemblyReference.cache
+C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\obj\Debug\VLN2_Project.Migrations.Init.resources
+C:\Users\Bjarki\Documents\gitsgud\VLN2_Project\VLN2_Project\obj\Debug\VLN2_Project.csproj.GenerateResource.Cache

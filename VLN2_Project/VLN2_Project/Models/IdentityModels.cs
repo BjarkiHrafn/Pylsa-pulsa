@@ -25,7 +25,7 @@ namespace VLN2_Project.Models
         [Key]
         public DbSet<Project> Projects { get; set; }
         public DbSet<ProjectFile> ProjectFiles { get; set; }
-        public DbSet<User> users { get; set; }//thetta het Users en conflictadi svo.. yolo, kvedja.Bjarki
+        public DbSet<User> Users { get; set; }
 
         public ApplicationDbContext()
             : base("CodebucketData", throwIfV1Schema: false)
